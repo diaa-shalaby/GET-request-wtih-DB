@@ -7,7 +7,7 @@ GET request handler for the route /predict.
 
 - Input: /predict?username=dwight&amp;model=happy&amp;sentence=i-am-very-happy  
 - Output: minimal json response: { “predicted_sentiment”: &quot;happy&quot; }  
-\
+---
 - Input: /predict?username=john&amp;model=length-based&amp;sentence=i-am-very-happy-but-my-sentence-is-long  
 - Output: minimal json response: { “predicted_sentiment”: &quot;unhappy&quot; }
 
