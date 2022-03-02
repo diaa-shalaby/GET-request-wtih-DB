@@ -5,11 +5,11 @@ return one of the 3 sentiments: “happy”, “neutral”, or “unhappy”.
 
 GET request handler for the route /predict.
 
- Input: /predict?username=dwight&amp;model=happy&amp;sentence=i-am-very-happy  
- Output: minimal json response: { “predicted_sentiment”: &quot;happy&quot; }  
+- Input: /predict?username=dwight&amp;model=happy&amp;sentence=i-am-very-happy  
+- Output: minimal json response: { “predicted_sentiment”: &quot;happy&quot; }  
 
- Input: /predict?username=john&amp;model=length-based&amp;sentence=i-am-very-happy-but-my-sentence-is-long  
- Output: minimal json response: { “predicted_sentiment”: &quot;unhappy&quot; }
+- Input: /predict?username=john&amp;model=length-based&amp;sentence=i-am-very-happy-but-my-sentence-is-long  
+- Output: minimal json response: { “predicted_sentiment”: &quot;unhappy&quot; }
 
 ### SQL Impressions and Conversions DB
 In programmatic advertising, ads (commonly referred to as impressions) are shown on websites with the
